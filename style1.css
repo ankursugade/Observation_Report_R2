@@ -1,0 +1,55 @@
+/* Reset some default browser styles */
+body, h1, p, form, input, label, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and spacing to the body */
+body {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+/* Center the form within a container */
+.form-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.25rem;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form labels */
+label {
+    display: block;
+    margin-bottom: 0.3125rem;
+}
+
+/* Style the file input field */
+#uploadfile {
+    width: 100%;
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.1875rem;
+    font-size: 1rem;
+}
+
+/* Style the submit button */
+#submit1 {
+    width: 25%;
+    padding: 0.625rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.1875rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit1:hover {
+    background-color: #555;
+}
